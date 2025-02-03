@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-singleticket',
+  selector: 'app-SingleTicket',
   imports: [],
   templateUrl: './singleticket.component.html',
-  styleUrl: './singleticket.component.css'
+  styleUrl: './singleticket.component.css',
 })
-export class SingleticketComponent {
-
-}
+export class SingleTicketComponent {}

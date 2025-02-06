@@ -1,6 +1,6 @@
 <p class="control">
   <label for="title">{{ label }}: </label>
-  <ng-content select="input, textarea"
-    ><input type="text" name="title" id="title" placeholder="fallback"
-  /></ng-content>
+  <ng-content select="input, textarea"></ng-content>
 </p>
+
+<!-- in this example we indicated that only inputs or textarea fields can utilize this particular content projection via ng-content  -->

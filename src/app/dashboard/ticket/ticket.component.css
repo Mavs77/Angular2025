@@ -11,6 +11,10 @@
   width: 15rem;
 }
 
+li {
+  list-style: none;
+}
+
 #tickets li {
   margin: 0.5rem 0;
 }

@@ -20,8 +20,8 @@ export class ServerStatusComponent implements OnInit {
   // constructor() {
   // }
 
+  //ngOnIt runs once after the component's inputs have all been initialized. Typically follows the constructor function.
   ngOnInit() {
-    console.log('ON INIT');
     const interval = setInterval(() => {
       // this.currentStatus === 'online'
       //   ? (this.currentStatus = 'offline')
@@ -42,6 +42,7 @@ export class ServerStatusComponent implements OnInit {
     });
   }
 
+  //runs once after ALL the children in the component's template (its view) have been initialized.
   ngAfterViewInit() {
     console.log('AFTER VIEW INIT');
   }

@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'button[appButton]',
@@ -6,5 +6,6 @@ import { Component, HostListener } from '@angular/core';
   imports: [],
   templateUrl: './button.component.html',
   styleUrl: './button.component.css',
+  encapsulation: ViewEncapsulation.Emulated,
 })
 export class ButtonComponent {}
